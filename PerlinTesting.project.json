@@ -1,6 +1,5 @@
 {
   "name": "Perlin-Terrain-Testing",
-  "servePlaceIds" : [2917580290],
   "tree": {
     "$className": "DataModel",
 
@@ -8,10 +7,10 @@
       "$className": "ReplicatedStorage",
       "$ignoreUnknownInstances": true,
       "SharedModules": {
-        "$path": "src/SharedModules"
+        "$path": "Source/SharedModules"
       },
       "Modules" : {
-        "$path": "src/ClientModules"
+        "$path": "Source/ClientModules"
       }
     },
     
@@ -19,7 +18,7 @@
       "$className": "ServerStorage",
       "$ignoreUnknownInstances": true,
       "Modules": {
-        "$path": "src/ServerStorage"
+        "$path": "Source/ServerStorage"
       }
     },
 
@@ -27,7 +26,7 @@
       "$className": "ServerScriptService",
       "$ignoreUnknownInstances": true,
       "Server": {
-        "$path": "src/ServerMain"
+        "$path": "Source/ServerMain"
       }
     },
 
@@ -37,19 +36,19 @@
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
         "Client": {
-          "$path": "src/StarterPlayerScripts/Client"
+          "$path": "Source/StarterPlayerScripts/Client"
         },
         "Server": {
-          "$path": "src/StarterPlayerScripts/Server"
+          "$path": "Source/StarterPlayerScripts/Server"
         }
       },
       "StarterCharacterScripts": {
         "$className": "StarterCharacterScripts",
         "Client": {
-          "$path": "src/StarterCharacterScripts/Client"
+          "$path": "Source/StarterCharacterScripts/Client"
         },
         "Server": {
-          "$path": "src/StarterCharacterScripts/Server"
+          "$path": "Source/StarterCharacterScripts/Server"
         }
       }
     }
