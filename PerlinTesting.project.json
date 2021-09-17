@@ -1,0 +1,57 @@
+{
+  "name": "Perlin-Terrain-Testing",
+  "servePlaceIds" : [7345103765],
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "SharedModules": {
+        "$path": "src/SharedModules"
+      },
+      "Modules" : {
+        "$path": "src/ClientModules"
+      }
+    },
+    
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$ignoreUnknownInstances": true,
+      "Modules": {
+        "$path": "src/ServerStorage"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "Server": {
+        "$path": "src/ServerMain"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/StarterPlayerScripts/Client"
+        },
+        "Server": {
+          "$path": "src/StarterPlayerScripts/Server"
+        }
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "Client": {
+          "$path": "src/StarterCharacterScripts/Client"
+        },
+        "Server": {
+          "$path": "src/StarterCharacterScripts/Server"
+        }
+      }
+    }
+  }
+}
